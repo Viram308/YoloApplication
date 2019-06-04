@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:id="@+id/generate"
+    android:visibility="visible"
+    tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/kiosk_id_text"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:hint="Enter HealthATM ID"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <Button
+            android:id="@+id/enter_id_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#1784f2"
+            android:text="Go"
+            android:textColor="#ffffff"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>
